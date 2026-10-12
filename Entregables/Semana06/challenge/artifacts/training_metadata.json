@@ -1,0 +1,27 @@
+{
+  "champion_model": "LogisticRegression",
+  "selection_metric": "accuracy",
+  "best_cv_accuracy": 0.9790640394088669,
+  "cv_accuracy_std": 0.027713464392187602,
+  "best_params": {
+    "classifier__C": 1
+  },
+  "cv_folds": 5,
+  "random_state": 42,
+  "features": [
+    "alcohol",
+    "malic_acid",
+    "ash",
+    "alcalinity_of_ash",
+    "magnesium",
+    "total_phenols",
+    "flavanoids",
+    "nonflavanoid_phenols",
+    "proanthocyanins",
+    "color_intensity",
+    "hue",
+    "od280/od315_of_diluted_wines",
+    "proline"
+  ],
+  "target": "target"
+}
